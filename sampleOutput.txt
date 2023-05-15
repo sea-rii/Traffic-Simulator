@@ -1,0 +1,2068 @@
+This solution was completed by:
+<student name #1>
+<student name #2 (if no partner write "N/A")>
+
+
+Running default test files: 
+
+
+
+--------------- START OF OUTPUT FOR data-Trivial1.txt -----------------
+
+
+SIMULATION
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 1
+
+STEP 0 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - - (GREEN light)
+
+
+STEP 1 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - 1 (RED light)
+
+
+STEP 2 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - 1 - (GREEN light)
+
+
+STEP 3 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- 1 - - (RED light)
+
+
+STEP 4 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 - - - (GREEN light)
+
+STEP 4 - Car successfully traveled from 0 to 1 in 5 time steps.
+
+STEP 5 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - - (RED light)
+
+
+Average number of time steps to the reach their destination is 5.00.
+Maximum number of time steps to the reach their destination is 5.
+
+FREE DATA
+
+--------------- END OF OUTPUT FOR data-Trivial1.txt -----------------
+
+
+
+--------------- START OF OUTPUT FOR data-Trivial2.txt -----------------
+
+
+SIMULATION
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 1
+
+STEP 0 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - - (GREEN light)
+
+
+STEP 1 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - 1 (RED light)
+
+
+STEP 2 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - 1 - (GREEN light)
+
+
+STEP 3 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- 1 - - (RED light)
+
+
+STEP 4 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 - - - (GREEN light)
+
+STEP 4 - Car successfully traveled from 0 to 1 in 5 time steps.
+
+STEP 5 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - - (RED light)
+
+STEP 11 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 1
+
+STEP 11 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - - (RED light)
+
+
+STEP 12 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - 1 (GREEN light)
+
+
+STEP 13 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - 1 - (RED light)
+
+
+STEP 14 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- 1 - 1 (GREEN light)
+
+
+STEP 15 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 - 1 - (RED light)
+
+
+STEP 16 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 1 - 1 (GREEN light)
+
+STEP 16 - Car successfully traveled from 0 to 1 in 6 time steps.
+
+STEP 17 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 - 1 - (RED light)
+
+
+STEP 18 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 1 - - (GREEN light)
+
+STEP 18 - Car successfully traveled from 0 to 1 in 8 time steps.
+
+STEP 19 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 - - - (RED light)
+
+
+STEP 20 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+1 - - - (GREEN light)
+
+STEP 20 - Car successfully traveled from 0 to 1 in 10 time steps.
+
+STEP 21 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - - - (RED light)
+
+
+Average number of time steps to the reach their destination is 7.25.
+Maximum number of time steps to the reach their destination is 10.
+
+FREE DATA
+
+--------------- END OF OUTPUT FOR data-Trivial2.txt -----------------
+
+
+
+--------------- START OF OUTPUT FOR data-Simple.txt -----------------
+
+
+SIMULATION
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 1
+STEP 6 - Car successfully traveled from 0 to 3 in 7 time steps.
+STEP 8 - Car successfully traveled from 0 to 3 in 9 time steps.
+
+STEP 10 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 0 to 1: 
+- - (GREEN light)
+Cars on the road from 1 to 2: 
+- - (GREEN light)
+Cars on the road from 2 to 3: 
+3 - (GREEN light)
+
+STEP 10 - Car successfully traveled from 0 to 3 in 11 time steps.
+
+Average number of time steps to the reach their destination is 9.00.
+Maximum number of time steps to the reach their destination is 11.
+
+FREE DATA
+
+--------------- END OF OUTPUT FOR data-Simple.txt -----------------
+
+
+
+--------------- START OF OUTPUT FOR data-Merge.txt -----------------
+
+
+SIMULATION
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 2 to 1
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 3 to 1
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 4 to 1
+
+STEP 0 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 1 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - 5 (GREEN light)
+Cars on the road from 3 to 1: 
+- - 6 (RED light)
+Cars on the road from 4 to 1: 
+- - 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 2 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- 5 - (GREEN light)
+Cars on the road from 3 to 1: 
+- 6 - (RED light)
+Cars on the road from 4 to 1: 
+- 7 - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 3 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+5 - 5 (GREEN light)
+Cars on the road from 3 to 1: 
+6 - 6 (RED light)
+Cars on the road from 4 to 1: 
+7 - 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 4 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - 5 (RED light)
+Cars on the road from 2 to 1: 
+- 5 - (GREEN light)
+Cars on the road from 3 to 1: 
+6 6 - (RED light)
+Cars on the road from 4 to 1: 
+7 7 - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+STEP 5 - ADD_CAR_EVENT - Cars enqueued on road from 1 to 0
+
+STEP 5 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - 5 - (RED light)
+Cars on the road from 2 to 1: 
+5 - 5 (RED light)
+Cars on the road from 3 to 1: 
+6 6 6 (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 6 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - 5 - 6 (GREEN light)
+Cars on the road from 2 to 1: 
+5 5 - (RED light)
+Cars on the road from 3 to 1: 
+6 - 6 (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 7 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - 5 - 6 - (GREEN light)
+Cars on the road from 2 to 1: 
+5 5 - (RED light)
+Cars on the road from 3 to 1: 
+6 6 - (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 8 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- 5 - 6 - 6 (GREEN light)
+Cars on the road from 2 to 1: 
+5 5 - (RED light)
+Cars on the road from 3 to 1: 
+6 - - (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (GREEN light)
+Cars on the road from 0 to 6: 
+- - - (GREEN light)
+Cars on the road from 0 to 7: 
+- - - (GREEN light)
+
+
+STEP 9 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 - 6 - 6 - (RED light)
+Cars on the road from 2 to 1: 
+5 5 - (RED light)
+Cars on the road from 3 to 1: 
+6 - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 7 (RED light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 10 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 6 - 6 - 0 (RED light)
+Cars on the road from 2 to 1: 
+5 5 - (GREEN light)
+Cars on the road from 3 to 1: 
+6 - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 11 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 6 6 - 0 - (GREEN light)
+Cars on the road from 2 to 1: 
+5 5 - (GREEN light)
+Cars on the road from 3 to 1: 
+6 - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 12 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+6 - 6 0 - 5 (GREEN light)
+Cars on the road from 2 to 1: 
+5 - - (GREEN light)
+Cars on the road from 3 to 1: 
+6 - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- - 5 (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 13 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- 6 - 0 5 - (GREEN light)
+Cars on the road from 2 to 1: 
+5 - - (GREEN light)
+Cars on the road from 3 to 1: 
+6 - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+- 5 - (RED light)
+Cars on the road from 0 to 6: 
+- - 6 (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 14 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+6 - 0 - 5 5 (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+6 - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+- 6 - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 15 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+6 0 - 5 - 5 (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+6 - - (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 16 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+6 0 5 - 5 - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+6 - - (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 17 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+0 - 5 5 - 6 (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - 6 (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+STEP 17 - Car successfully traveled from 1 to 0 in 13 time steps.
+
+STEP 18 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- 5 - 5 6 - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+7 7 7 (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (GREEN light)
+Cars on the road from 0 to 6: 
+6 6 - (GREEN light)
+Cars on the road from 0 to 7: 
+- - - (GREEN light)
+
+STEP 18 - Car successfully traveled from 2 to 5 in 19 time steps.
+STEP 18 - Car successfully traveled from 3 to 6 in 19 time steps.
+
+STEP 19 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 - 5 - 6 7 (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+7 - 7 (RED light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 20 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 5 - 6 - 7 (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 21 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 5 6 - 7 - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+7 7 - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 22 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 - 6 7 - 7 (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+7 - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - 5 (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 23 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+5 6 - 7 7 - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+7 - - (GREEN light)
+Cars on the road from 0 to 5: 
+- 5 - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 24 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+6 - 7 - 7 7 (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - 5 (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 25 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+6 7 - 7 - 7 (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 5 - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 26 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+6 7 7 - 7 - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 5 - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 27 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+7 - 7 7 - 0 (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 5 - (RED light)
+Cars on the road from 0 to 6: 
+6 - 6 (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+STEP 28 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- 7 - 7 0 - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 5 - (GREEN light)
+Cars on the road from 0 to 6: 
+6 6 - (GREEN light)
+Cars on the road from 0 to 7: 
+- - 7 (GREEN light)
+
+STEP 28 - Car successfully traveled from 2 to 5 in 29 time steps.
+STEP 28 - Car successfully traveled from 3 to 6 in 29 time steps.
+
+STEP 29 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+7 - 7 - 0 0 (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (RED light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+- 7 - (RED light)
+
+
+STEP 30 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+7 7 - 0 - 0 (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 31 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+7 7 0 - 0 - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 32 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+7 - 0 0 - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 - 7 (RED light)
+
+
+STEP 33 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+7 0 - 0 - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 34 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+0 - 0 - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 7 (RED light)
+
+
+STEP 35 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+0 0 - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 7 (RED light)
+
+
+STEP 36 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+0 0 - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 7 (RED light)
+
+STEP 36 - Car successfully traveled from 1 to 0 in 32 time steps.
+
+STEP 37 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+0 - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (RED light)
+Cars on the road from 0 to 6: 
+6 - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 7 (RED light)
+
+STEP 37 - Car successfully traveled from 1 to 0 in 33 time steps.
+
+STEP 38 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+5 - - (GREEN light)
+Cars on the road from 0 to 6: 
+6 - - (GREEN light)
+Cars on the road from 0 to 7: 
+7 7 7 (GREEN light)
+
+STEP 38 - Car successfully traveled from 2 to 5 in 39 time steps.
+STEP 38 - Car successfully traveled from 3 to 6 in 39 time steps.
+STEP 38 - Car successfully traveled from 4 to 7 in 39 time steps.
+
+STEP 39 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (RED light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - 7 (RED light)
+
+
+STEP 40 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 41 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 42 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 43 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 44 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 45 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 46 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 47 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 7 - (RED light)
+
+
+STEP 48 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (GREEN light)
+Cars on the road from 0 to 6: 
+- - - (GREEN light)
+Cars on the road from 0 to 7: 
+7 7 - (GREEN light)
+
+STEP 48 - Car successfully traveled from 4 to 7 in 49 time steps.
+
+STEP 49 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (RED light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 50 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 51 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 52 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 53 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 54 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 55 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 56 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 57 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+7 - - (RED light)
+
+
+STEP 58 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (GREEN light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (GREEN light)
+Cars on the road from 4 to 1: 
+- - - (GREEN light)
+Cars on the road from 0 to 5: 
+- - - (GREEN light)
+Cars on the road from 0 to 6: 
+- - - (GREEN light)
+Cars on the road from 0 to 7: 
+7 - - (GREEN light)
+
+STEP 58 - Car successfully traveled from 4 to 7 in 59 time steps.
+
+STEP 59 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 1 to 0: 
+- - - - - - (RED light)
+Cars on the road from 2 to 1: 
+- - - (RED light)
+Cars on the road from 3 to 1: 
+- - - (RED light)
+Cars on the road from 4 to 1: 
+- - - (RED light)
+Cars on the road from 0 to 5: 
+- - - (RED light)
+Cars on the road from 0 to 6: 
+- - - (RED light)
+Cars on the road from 0 to 7: 
+- - - (RED light)
+
+
+Average number of time steps to the reach their destination is 33.25.
+Maximum number of time steps to the reach their destination is 59.
+
+FREE DATA
+
+--------------- END OF OUTPUT FOR data-Merge.txt -----------------
+
+
+
+--------------- START OF OUTPUT FOR data-Complex.txt -----------------
+
+
+SIMULATION
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 3
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 1 to 3
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 2 to 3
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 3 to 7
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 7 to 3
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 4 to 7
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 5 to 7
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 6 to 7
+
+STEP 0 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 7 to 3: 
+- - - - - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+- - - - - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+- - - - - - - - - - (RED light)
+
+
+STEP 1 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - - - 5 (GREEN light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - 7 (RED light)
+Cars on the road from 2 to 3: 
+- - - - - - - - - 4 (RED light)
+Cars on the road from 7 to 3: 
+- - - - 0 (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+- - - - 4 (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - 0 (GREEN light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - 0 (RED light)
+Cars on the road from 6 to 7: 
+- - - - - - - - - 2 (RED light)
+
+
+STEP 2 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - - 5 - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - 7 - (GREEN light)
+Cars on the road from 2 to 3: 
+- - - - - - - - 4 - (RED light)
+Cars on the road from 7 to 3: 
+- - - 0 - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+- - - 4 - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - 0 - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - 0 - (GREEN light)
+Cars on the road from 6 to 7: 
+- - - - - - - - 2 - (RED light)
+
+
+STEP 3 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - 5 - 1 (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - 7 - 0 (GREEN light)
+Cars on the road from 2 to 3: 
+- - - - - - - 4 - 2 (RED light)
+Cars on the road from 7 to 3: 
+- - 0 - 2 (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+- - 4 - 7 (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - 0 - 1 (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - 0 - 0 (GREEN light)
+Cars on the road from 6 to 7: 
+- - - - - - - 2 - 2 (RED light)
+
+STEP 4 - ADD_CAR_EVENT - Cars enqueued on road from 2 to 3
+
+STEP 4 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - 5 - 1 - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - 7 - 0 - (RED light)
+Cars on the road from 2 to 3: 
+- - - - - - 4 - 2 - (GREEN light)
+Cars on the road from 7 to 3: 
+- 0 - 2 - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+- 4 - 7 - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - 0 - 1 - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - 0 - 0 - (RED light)
+Cars on the road from 6 to 7: 
+- - - - - - 2 - 2 - (GREEN light)
+
+
+STEP 5 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - 5 - 1 - 5 (RED light)
+Cars on the road from 1 to 3: 
+- - - - - 7 - 0 - 4 (RED light)
+Cars on the road from 2 to 3: 
+- - - - - 4 - 2 - 7 (GREEN light)
+Cars on the road from 7 to 3: 
+0 - 2 - 1 (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+4 - 7 - 5 (RED light)
+Cars on the road from 4 to 7: 
+- - - - - 0 - 1 - 2 (RED light)
+Cars on the road from 5 to 7: 
+- - - - - 0 - 0 - 0 (RED light)
+Cars on the road from 6 to 7: 
+- - - - - 2 - 2 - 1 (GREEN light)
+
+
+STEP 6 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - 5 - 1 - 5 - (RED light)
+Cars on the road from 1 to 3: 
+- - - - 7 - 0 - 4 - (RED light)
+Cars on the road from 2 to 3: 
+- - - - 4 - 2 - 7 - (RED light)
+Cars on the road from 7 to 3: 
+0 2 - 1 - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+4 7 - 5 - (RED light)
+Cars on the road from 4 to 7: 
+- - - - 0 - 1 - 2 - (RED light)
+Cars on the road from 5 to 7: 
+- - - - 0 - 0 - 0 - (RED light)
+Cars on the road from 6 to 7: 
+- - - - 2 - 2 - 1 - (RED light)
+
+
+STEP 7 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - 5 - 1 - 5 - 6 (RED light)
+Cars on the road from 1 to 3: 
+- - - 7 - 0 - 4 - 5 (RED light)
+Cars on the road from 2 to 3: 
+- - - 4 - 2 - 7 - 6 (RED light)
+Cars on the road from 7 to 3: 
+0 2 1 - 3 (GREEN light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+4 7 5 - 6 (GREEN light)
+Cars on the road from 4 to 7: 
+- - - 0 - 1 - 2 - 5 (RED light)
+Cars on the road from 5 to 7: 
+- - - 0 - 0 - 0 - 0 (RED light)
+Cars on the road from 6 to 7: 
+- - - 2 - 2 - 1 - 1 (RED light)
+
+
+STEP 8 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - 0 (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - 5 - 1 - 5 - 6 - (RED light)
+Cars on the road from 1 to 3: 
+- - 7 - 0 - 4 - 5 - (RED light)
+Cars on the road from 2 to 3: 
+- - 4 - 2 - 7 - 6 - (RED light)
+Cars on the road from 7 to 3: 
+2 - 1 3 - (GREEN light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - 4 (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - 5 6 - (GREEN light)
+Cars on the road from 4 to 7: 
+- - 0 - 1 - 2 - 5 - (RED light)
+Cars on the road from 5 to 7: 
+- - 0 - 0 - 0 - 0 - (RED light)
+Cars on the road from 6 to 7: 
+- - 2 - 2 - 1 - 1 - (RED light)
+
+STEP 8 - Car successfully traveled from 3 to 7 in 9 time steps.
+
+STEP 9 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - 0 - (RED light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (RED light)
+Cars on the road from 3 to 2: 
+- - - - - - - - - 2 (RED light)
+Cars on the road from 0 to 3: 
+- 5 - 1 - 5 - 6 - 7 (RED light)
+Cars on the road from 1 to 3: 
+- 7 - 0 - 4 - 5 - 6 (RED light)
+Cars on the road from 2 to 3: 
+- 4 - 2 - 7 - 6 - 6 (RED light)
+Cars on the road from 7 to 3: 
+- 1 - 3 - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - 4 - (RED light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (RED light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (RED light)
+Cars on the road from 3 to 7: 
+- 5 - 6 - (RED light)
+Cars on the road from 4 to 7: 
+- 0 - 1 - 2 - 5 - 0 (RED light)
+Cars on the road from 5 to 7: 
+- 0 - 0 - 0 - 0 - 2 (RED light)
+Cars on the road from 6 to 7: 
+- 2 - 2 - 1 - 1 - 2 (RED light)
+
+STEP 17 - Car successfully traveled from 7 to 0 in 18 time steps.
+STEP 17 - Car successfully traveled from 3 to 4 in 18 time steps.
+STEP 18 - Car successfully traveled from 7 to 2 in 19 time steps.
+STEP 18 - Car successfully traveled from 7 to 3 in 19 time steps.
+STEP 23 - Car successfully traveled from 1 to 0 in 24 time steps.
+STEP 25 - Car successfully traveled from 2 to 2 in 26 time steps.
+STEP 27 - Car successfully traveled from 7 to 1 in 28 time steps.
+STEP 27 - Car successfully traveled from 3 to 5 in 28 time steps.
+STEP 28 - Car successfully traveled from 3 to 6 in 29 time steps.
+STEP 28 - Car successfully traveled from 1 to 7 in 29 time steps.
+STEP 30 - Car successfully traveled from 0 to 1 in 31 time steps.
+STEP 37 - Car successfully traveled from 4 to 0 in 38 time steps.
+STEP 37 - Car successfully traveled from 0 to 5 in 38 time steps.
+STEP 47 - Car successfully traveled from 5 to 0 in 48 time steps.
+STEP 47 - Car successfully traveled from 2 to 4 in 48 time steps.
+STEP 48 - Car successfully traveled from 6 to 2 in 49 time steps.
+STEP 48 - Car successfully traveled from 0 to 5 in 49 time steps.
+STEP 50 - Car successfully traveled from 4 to 5 in 51 time steps.
+STEP 57 - Car successfully traveled from 4 to 1 in 58 time steps.
+STEP 57 - Car successfully traveled from 1 to 4 in 58 time steps.
+STEP 58 - Car successfully traveled from 5 to 0 in 59 time steps.
+STEP 58 - Car successfully traveled from 0 to 6 in 59 time steps.
+STEP 58 - Car successfully traveled from 0 to 7 in 59 time steps.
+STEP 67 - Car successfully traveled from 4 to 2 in 68 time steps.
+STEP 67 - Car successfully traveled from 1 to 5 in 68 time steps.
+STEP 68 - Car successfully traveled from 4 to 0 in 69 time steps.
+STEP 68 - Car successfully traveled from 4 to 3 in 69 time steps.
+STEP 77 - Car successfully traveled from 5 to 0 in 78 time steps.
+STEP 77 - Car successfully traveled from 1 to 6 in 78 time steps.
+STEP 78 - Car successfully traveled from 4 to 3 in 79 time steps.
+STEP 78 - Car successfully traveled from 0 to 4 in 79 time steps.
+STEP 87 - Car successfully traveled from 5 to 0 in 88 time steps.
+STEP 87 - Car successfully traveled from 1 to 4 in 88 time steps.
+STEP 90 - Car successfully traveled from 0 to 2 in 91 time steps.
+STEP 92 - Car successfully traveled from 1 to 1 in 93 time steps.
+STEP 93 - Car successfully traveled from 1 to 2 in 94 time steps.
+STEP 97 - Car successfully traveled from 5 to 2 in 98 time steps.
+STEP 97 - Car successfully traveled from 0 to 4 in 98 time steps.
+STEP 97 - Car successfully traveled from 0 to 7 in 98 time steps.
+STEP 98 - Car successfully traveled from 4 to 0 in 99 time steps.
+STEP 98 - Car successfully traveled from 1 to 5 in 99 time steps.
+STEP 100 - Car successfully traveled from 4 to 5 in 101 time steps.
+STEP 107 - Car successfully traveled from 5 to 2 in 108 time steps.
+STEP 108 - Car successfully traveled from 4 to 0 in 109 time steps.
+STEP 108 - Car successfully traveled from 1 to 6 in 109 time steps.
+STEP 108 - Car successfully traveled from 2 to 7 in 109 time steps.
+STEP 117 - Car successfully traveled from 5 to 2 in 118 time steps.
+STEP 117 - Car successfully traveled from 0 to 6 in 118 time steps.
+STEP 127 - Car successfully traveled from 5 to 2 in 128 time steps.
+STEP 127 - Car successfully traveled from 2 to 6 in 128 time steps.
+STEP 137 - Car successfully traveled from 6 to 2 in 138 time steps.
+STEP 137 - Car successfully traveled from 2 to 6 in 138 time steps.
+STEP 138 - Car successfully traveled from 5 to 1 in 139 time steps.
+STEP 145 - Car successfully traveled from 2 to 1 in 146 time steps.
+STEP 147 - Car successfully traveled from 6 to 1 in 148 time steps.
+STEP 147 - Car successfully traveled from 2 to 5 in 148 time steps.
+STEP 155 - Car successfully traveled from 6 to 5 in 156 time steps.
+STEP 157 - Car successfully traveled from 5 to 1 in 158 time steps.
+STEP 157 - Car successfully traveled from 2 to 4 in 158 time steps.
+STEP 160 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 3
+
+STEP 160 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - 1 - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - - 2 - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 5 5 5 5 5 - 5 - - (RED light)
+Cars on the road from 7 to 3: 
+2 - 3 - - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - 5 - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - - - - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 1 - - - - - - - - (RED light)
+
+
+STEP 161 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - 1 - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - - 2 - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - - - 1 (GREEN light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 5 5 5 5 5 5 - - - (RED light)
+Cars on the road from 7 to 3: 
+2 3 - - - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - 5 - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - - - - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 1 - - - - - - - - (RED light)
+
+
+STEP 162 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - 1 - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - - 2 - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - - 1 - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 2 to 3: 
+5 5 5 5 5 5 5 - - - (RED light)
+Cars on the road from 7 to 3: 
+2 3 - - - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - 5 - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - - - - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 6 to 7: 
+1 1 - - - - - - - - (RED light)
+
+
+STEP 163 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - 1 - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - - 2 - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - - 1 - 2 (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 2 to 3: 
+5 5 5 5 5 5 5 - - - (RED light)
+Cars on the road from 7 to 3: 
+2 3 - - - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - 5 - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - - - - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 6 to 7: 
+1 1 - - - - - - - - (RED light)
+
+
+STEP 164 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - 1 - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - - 2 - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - - 1 - 2 - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 5 5 5 5 5 5 - - - (GREEN light)
+Cars on the road from 7 to 3: 
+2 3 - - - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - 5 - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - - - - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 1 - - - - - - - - (GREEN light)
+
+
+STEP 165 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - 1 - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - - 2 - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - - 1 - 2 - 3 (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 - 5 5 5 5 5 - - - (GREEN light)
+Cars on the road from 7 to 3: 
+2 3 - - 1 (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - 5 - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - - - 5 (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 - - - - - - - - - (GREEN light)
+
+
+STEP 166 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- 1 - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- - 2 - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - - 1 - 2 - 3 - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 5 - 5 5 5 5 - - - (RED light)
+Cars on the road from 7 to 3: 
+2 3 - 1 - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- 5 - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - - 5 - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 - - - - - - - - - (RED light)
+
+
+STEP 167 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+1 - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+- 2 - - - - - - - - (GREEN light)
+Cars on the road from 0 to 3: 
+- - - 1 - 2 - 3 - - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 5 5 - 5 5 5 - - - (RED light)
+Cars on the road from 7 to 3: 
+2 3 1 - - (GREEN light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+5 - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+7 - 5 - - (GREEN light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 - - - - - - - - - (RED light)
+
+STEP 167 - Car successfully traveled from 6 to 1 in 168 time steps.
+STEP 167 - Car successfully traveled from 2 to 5 in 168 time steps.
+STEP 167 - Car successfully traveled from 2 to 7 in 168 time steps.
+
+STEP 168 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 2: 
+2 - - - - - - - - 2 (GREEN light)
+Cars on the road from 0 to 3: 
+- - 1 - 2 - 3 - - - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 5 5 5 - 5 5 - - - (RED light)
+Cars on the road from 7 to 3: 
+3 - 1 - - (GREEN light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (GREEN light)
+Cars on the road from 3 to 7: 
+- 5 - - - (GREEN light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 - - - - - - - - - (RED light)
+
+STEP 168 - Car successfully traveled from 6 to 2 in 169 time steps.
+STEP 168 - Car successfully traveled from 6 to 3 in 169 time steps.
+
+STEP 169 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 3 to 0: 
+- - - - - - - - - - (RED light)
+Cars on the road from 3 to 1: 
+- - - - - - - - - - (RED light)
+Cars on the road from 3 to 2: 
+- - - - - - - - 2 - (RED light)
+Cars on the road from 0 to 3: 
+- 1 - 2 - 3 - - - - (RED light)
+Cars on the road from 1 to 3: 
+- - - - - - - - - - (RED light)
+Cars on the road from 2 to 3: 
+5 5 5 5 5 - 5 - - - (RED light)
+Cars on the road from 7 to 3: 
+- 1 - - - (RED light)
+Cars on the road from 7 to 4: 
+- - - - - - - - - - (RED light)
+Cars on the road from 7 to 5: 
+- - - - - - - - - - (RED light)
+Cars on the road from 7 to 6: 
+- - - - - - - - - - (RED light)
+Cars on the road from 3 to 7: 
+5 - - - - (RED light)
+Cars on the road from 4 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 5 to 7: 
+- - - - - - - - - - (RED light)
+Cars on the road from 6 to 7: 
+1 - - - - - - - - - (RED light)
+
+STEP 177 - Car successfully traveled from 6 to 2 in 178 time steps.
+STEP 180 - Car successfully traveled from 0 to 1 in 21 time steps.
+STEP 181 - Car successfully traveled from 0 to 3 in 22 time steps.
+STEP 187 - Car successfully traveled from 6 to 1 in 188 time steps.
+STEP 187 - Car successfully traveled from 2 to 5 in 184 time steps.
+STEP 190 - Car successfully traveled from 0 to 2 in 31 time steps.
+STEP 197 - Car successfully traveled from 6 to 1 in 198 time steps.
+STEP 197 - Car successfully traveled from 2 to 5 in 194 time steps.
+STEP 207 - Car successfully traveled from 2 to 5 in 204 time steps.
+STEP 217 - Car successfully traveled from 2 to 5 in 214 time steps.
+STEP 227 - Car successfully traveled from 2 to 5 in 224 time steps.
+STEP 237 - Car successfully traveled from 2 to 5 in 234 time steps.
+STEP 247 - Car successfully traveled from 2 to 5 in 244 time steps.
+
+Average number of time steps to the reach their destination is 99.50.
+Maximum number of time steps to the reach their destination is 244.
+
+FREE DATA
+
+--------------- END OF OUTPUT FOR data-Complex.txt -----------------
+
+
+
+--------------- START OF OUTPUT FOR data-NearGridlock.txt -----------------
+
+
+SIMULATION
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 1
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 1 to 2
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 2 to 0
+
+STEP 0 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 2 to 0: 
+- - (GREEN light)
+Cars on the road from 0 to 1: 
+- - (GREEN light)
+Cars on the road from 1 to 2: 
+- - (GREEN light)
+
+
+STEP 1 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 2 to 0: 
+- 1 (RED light)
+Cars on the road from 0 to 1: 
+- 2 (RED light)
+Cars on the road from 1 to 2: 
+- 0 (RED light)
+
+
+STEP 2 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 2 to 0: 
+1 - (RED light)
+Cars on the road from 0 to 1: 
+2 - (RED light)
+Cars on the road from 1 to 2: 
+0 - (RED light)
+
+STEP 40 - Car successfully traveled from 2 to 1 in 41 time steps.
+STEP 50 - Car successfully traveled from 1 to 0 in 51 time steps.
+STEP 50 - Car successfully traveled from 2 to 1 in 51 time steps.
+STEP 60 - Car successfully traveled from 1 to 0 in 61 time steps.
+STEP 60 - Car successfully traveled from 0 to 2 in 61 time steps.
+
+Average number of time steps to the reach their destination is 53.00.
+Maximum number of time steps to the reach their destination is 61.
+
+FREE DATA
+
+--------------- END OF OUTPUT FOR data-NearGridlock.txt -----------------
+
+
+
+--------------- START OF OUTPUT FOR data-Gridlock.txt -----------------
+
+
+SIMULATION
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 0 to 1
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 1 to 2
+STEP 0 - ADD_CAR_EVENT - Cars enqueued on road from 2 to 0
+
+STEP 0 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 2 to 0: 
+- - (GREEN light)
+Cars on the road from 0 to 1: 
+- - (GREEN light)
+Cars on the road from 1 to 2: 
+- - (GREEN light)
+Cars on the road from 2 to 3: 
+- - (GREEN light)
+
+STEP 1 - ADD_CAR_EVENT - Cars enqueued on road from 2 to 3
+
+STEP 1 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 2 to 0: 
+- 1 (RED light)
+Cars on the road from 0 to 1: 
+- 2 (RED light)
+Cars on the road from 1 to 2: 
+- 0 (RED light)
+Cars on the road from 2 to 3: 
+- - (RED light)
+
+
+STEP 2 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 2 to 0: 
+1 - (RED light)
+Cars on the road from 0 to 1: 
+2 - (RED light)
+Cars on the road from 1 to 2: 
+0 - (RED light)
+Cars on the road from 2 to 3: 
+- 3 (RED light)
+
+STEP 10 - Car successfully traveled from 2 to 3 in 10 time steps.
+STEP 20 - Car successfully traveled from 2 to 3 in 20 time steps.
+
+STEP 25 - PRINT_ROADS_EVENT - Current contents of the roads:
+Cars on the road from 2 to 0: 
+1 1 (RED light)
+Cars on the road from 0 to 1: 
+2 2 (RED light)
+Cars on the road from 1 to 2: 
+0 0 (RED light)
+Cars on the road from 2 to 3: 
+- - (RED light)
+
+STEP 31 - Gridlock detected.
+
+FREE DATA
+
+--------------- END OF OUTPUT FOR data-Gridlock.txt -----------------
+
